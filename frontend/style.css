@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(135deg, #667eea, #764ba2);
+     */
+    background-image: url("todo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: white;
+    padding: 25px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    background: #667eea;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    margin-top: 8px;
+}
